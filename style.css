@@ -1,11 +1,14 @@
 body {
     color: rgba(189, 254, 2);
-    background-color: rgba(80, 146, 45);
+    background-image: linear-gradient(rgb(122, 163, 0), rgba(80, 146, 45), rgb(39, 72, 21));
     margin: 0;
     font-family: sans-serif;
 }
 center {
     padding-top: 10vh;
+}
+.logo {
+    width: 35vw;   
 }
 .container {
     color: rgba(80, 146, 45);
@@ -16,6 +19,24 @@ center {
     justify-content: center;
     align-items: center;
     position: fixed;
+}
+.hamburger {
+    background-color: transparent;
+    position: absolute;
+    right: 5px;
+    display: none;
+}
+.hamburgerMenu {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  background: black;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 button {
     height: 6vh;
@@ -60,4 +81,16 @@ a {
 }
 .lightback {
     background-color: rgba(189, 254, 2);
+}
+
+@media only screen and (max-width: 870px) {
+    .container {
+        display: none;
+    }
+    .hamburger {
+        display: unset;
+    }
+    .logo {
+        width: 70vw;   
+    }
 }
