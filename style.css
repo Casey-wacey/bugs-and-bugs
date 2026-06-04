@@ -46,3 +46,6 @@ a {
 .imageCharacters {
     width: 40vw;
 }
+.hidden {
+    display: none;
+}
