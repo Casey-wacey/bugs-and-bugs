@@ -82,7 +82,6 @@ a {
 .lightback {
     background-color: rgba(189, 254, 2);
 }
-
 @media only screen and (max-width: 870px) {
     .container {
         display: none;
