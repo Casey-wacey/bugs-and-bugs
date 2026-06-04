@@ -49,3 +49,15 @@ a {
 .hidden {
     display: none;
 }
+.darkcol {
+    color: rgba(80, 146, 45);
+}
+.darkback {
+    background-color: rgba(80, 146, 45);
+}
+.lightcol {
+    color: rgba(189, 254, 2);
+}
+.lightback {
+    background-color: rgba(189, 254, 2);
+}
