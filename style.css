@@ -38,3 +38,11 @@ a {
     text-decoration: none;
     font-size: xx-large;
 }
+.characters {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imageCharacters {
+    width: 40vw;
+}
