@@ -25,6 +25,8 @@ center {
     position: absolute;
     right: 5px;
     display: none;
+    width: 8vw;
+    font-size: 3vw;
 }
 .hamburgerMenu {
   position: fixed;
