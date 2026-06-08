@@ -10,6 +10,9 @@ body {
 center {
     padding-top: 10vh;
 }
+hr {
+    border: 2px, solid, rgba(189, 254, 2);
+}
 .logo {
     width: 35vw;   
 }
