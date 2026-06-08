@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     color: rgba(189, 254, 2);
     background-image: linear-gradient(rgb(122, 163, 0), rgba(80, 146, 45), rgb(39, 72, 21));
