@@ -111,7 +111,7 @@ a {
     left: 0px;
 }
 .casey:hover {
-    transition: all 900s ease-out;;
+    transition: all 450s ease-out;
     transform: rotate(360deg);
 }
 
