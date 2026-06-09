@@ -104,6 +104,16 @@ a {
     bottom: -10%;
     right: -7%;
 }
+.casey {
+    width: 5vw;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.casey:hover {
+    transition: all 900s ease-out;;
+    transform: rotate(360deg);
+}
 
 @media only screen and (max-width: 870px) {
     .container {
@@ -114,5 +124,22 @@ a {
     }
     .logo {
         width: 70vw;   
+    }
+    .choei {
+        width: 15vw;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+    .choei:hover {
+        width: 15vw;
+        bottom: 0%;
+        right: 0%;
+    }
+    .casey {
+        width: 15vw;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
     }
 }

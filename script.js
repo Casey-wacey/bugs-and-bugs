@@ -17,4 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("choei").addEventListener("click", function() {
         location.href = 'https://nunoke123.github.io/';
     })
+    document.getElementById("casey").addEventListener("click", function() {
+        location.href = 'https://casey-wacey.github.io/';
+    })
 });
