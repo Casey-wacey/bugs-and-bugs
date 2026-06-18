@@ -1,5 +1,15 @@
 
 document.addEventListener("DOMContentLoaded", function() {
+    fetch("https://raw.githubusercontent.com/Casey-wacey/discord-data/main/data.json")
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("comicCount").textContent = data.value;
+    })
+    .catch(error => {
+        console.error("Failed to load comic count:", error);
+        document.getElementById("comicCount").textContent = "?";
+    });
+    
     document.getElementById("hamburger").addEventListener("click", function(){
         document.getElementById("hamburgerMenu").classList.remove('hidden'); 
         document.getElementById("ham").classList.add("hidden");
