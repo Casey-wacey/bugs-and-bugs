@@ -1,6 +1,8 @@
 
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("https://api.github.com/repos/Casey-wacey/discord-data/contents/data.json")
+    fetch(
+    "https://api.github.com/repos/Casey-wacey/discord-data/contents/data.json?t=" +
+        Date.now())
         .then(response => response.json())
         .then(data => {
             const json = JSON.parse(atob(data.content));
